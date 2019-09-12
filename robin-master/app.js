@@ -11,7 +11,7 @@ const path = require('path');
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('frontend/build'));
   app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'robin ', 'client', 'public', 'index.html'));
+    res.sendFile(path.resolve(__dirname, 'robin ', 'robin-client', 'public', 'index.html'));
   })
 }
 mongoose
