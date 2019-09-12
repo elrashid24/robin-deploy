@@ -1,0 +1,158 @@
+//background: #102A49;
+.main {
+  display: flex;
+  justify-content: space-between;
+  height: 800px;
+
+}
+
+.auth-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px;
+  font-size: 18px;
+  font-family: fantasy;
+  font-weight: bold;
+  color: #102A49;
+
+}
+
+.right {
+  margin-top: 200px;
+}
+
+.left {
+  margin-top: 0px;
+}
+
+.navBar-container {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background: #102A49;
+  width: 100%;
+  // box-shadow: 10px 10px 5px 0px rgba(30, 67, 76, 0.93);
+  margin-bottom: 40px;
+  // box-shadow: 10px 10px 5px 0px rgba(16, 42, 73, 0.91);
+  // border-bottom: solid;
+  // border-color: whitesmoke;
+  // position: -webkit-sticky;
+  position: fixed;
+  // bottom: 50px;
+  ;
+  // height: 90px;
+}
+
+.logo-container {
+  max-height: 100%;
+
+}
+
+.logo {
+  display: flex;
+
+  font-size: 70px;
+  font-family: fantasy;
+  font-weight: bold;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.slogan {
+  // margin-right: 60px;
+  font-size: 40px;
+  // font-family: fantasy;
+  // font-weight: bold;
+  // text-decoration: none;
+}
+
+.home-links {
+  font-family: fantasy;
+  margin-right: 15px;
+  background: green;
+}
+
+.app {
+  font-family: fantasy;
+  text-decoration: none;
+  color: #102A49;
+}
+
+.auth-inputs {
+  text-align: center;
+  width: 200px;
+  height: 34px;
+  padding: 5px 5px;
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-family: fantasy;
+  color: #102A49;
+}
+
+.auth-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 5px;
+
+
+}
+
+
+.auth-btn {
+  border: none;
+  color: #102A49;
+  cursor: pointer;
+
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.errors {
+  color: red;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.nav-auth {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.sign-up {
+  text-decoration: none !important;
+  color: #102A49;
+
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  color: #102A49;
+  font-weight: bold;
+  text-decoration: none !important;
+  font-family: fantasy;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout {
+  border: none;
+  font-family: fantasy;
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  background: #102A49;
+  cursor: pointer;
+
+}
+
+/* Links inside the navbar */
